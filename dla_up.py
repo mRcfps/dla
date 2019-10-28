@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from torch import nn
 
-import dla
+from . import dla
 
 BatchNorm = nn.BatchNorm2d
 

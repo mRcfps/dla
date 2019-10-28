@@ -8,7 +8,7 @@ import torch
 from torch import nn
 import torch.utils.model_zoo as model_zoo
 
-import dataset
+from . import dataset
 
 BatchNorm = nn.BatchNorm2d
 
